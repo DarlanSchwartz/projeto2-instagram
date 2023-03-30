@@ -1,0 +1,97 @@
+header {
+  padding-right: 18px;
+  padding-left: 18px;
+  width: 100%;
+}
+
+.cabecalio {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  z-index: 7;
+  top: 0;
+}
+
+.cabecalio-content {
+  height: 54px;
+  display: flex;
+  width: 935px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
+
+.header-logo-icon {
+  height: 19px;
+  width: 19px;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.logo-insta {
+  height: 29px;
+  width: 103px;
+}
+
+.borda-vertical {
+  height: 22px;
+  width: 1px;
+  margin: 0 12px;
+  background-color: #dbdbdb;
+}
+
+.borda-horizontal {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+#search-input {
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background: #f2f2f2;
+  outline: none;
+}
+
+#search-input::placeholder {
+  line-height: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #979797;
+  text-align: center;
+}
+
+.header-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 22px;
+  padding-right: 30px;
+  width: auto;
+}
+
+.header-icon {
+  padding-left: 20px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+@media (max-width: 614px) {
+  /*sem sidebar*/
+  .cabecalio-content {
+    width: 100%;
+    /*background-color: green;*/
+  }
+}

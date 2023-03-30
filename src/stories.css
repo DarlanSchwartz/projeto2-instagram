@@ -1,0 +1,79 @@
+.stories-container {
+  width: 614px;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.all-stories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.storie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.storie-container-photos {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.storie-user-name {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10%;
+  color: #262626;
+}
+
+.storie-user-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.story-background {
+  width: 66px;
+  height: 66px;
+}
+
+.storie-pass {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+  right: 5px;
+  top: 46px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.inst-btn {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inst-btn:hover {
+  font-size: 20px;
+}
